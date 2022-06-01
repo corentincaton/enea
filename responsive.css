@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1024px) {
+    header .content,
+    footer .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .logo { 
+        margin-bottom: 15px;
+    }
+
+    footer .logo { 
+        margin-bottom: 30px;
+    }
+
+    header .links a {
+        padding: 0px 5px;
+    }
+
+    main .section {
+        flex-direction: column;
+    }
+
+    .quote { 
+        min-width: 0px;
+    }
+    .spotlight {
+        padding: 30px;
+        flex-direction: column;
+    }
+    .spotlight p {
+        font-size: 15px;
+    }
+    .spotlight h3 {
+        padding-top: 0px;
+        font-size: 30px;
+    }
+    .spotlight img {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    .moods-authors-genders {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .moods-authors-genders .selectors { 
+        flex-direction: row;
+    }
+    .moods-authors-genders .selector { 
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .moods-authors-genders .content .text {
+        font-size: 15px;
+    }
+    .moods-authors-genders .content img {
+        max-height: 150px;
+        padding-left: 30px;
+    
+    }
+
+    footer .content {
+        align-items: center;
+    }
+
+    footer .section {
+        padding: 0px 0px 40px;
+    }
+
+    footer .section:last-child {
+        padding: 0px
+    }
+  }
+
