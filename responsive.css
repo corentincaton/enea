@@ -17,7 +17,7 @@
         padding: 0px 5px;
     }
 
-    main .section {
+    main .tiles {
         flex-direction: column;
     }
 
@@ -68,6 +68,19 @@
     }
     .about-us p {
         font-size: 20px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact>div { 
+        width: 100%;
+    }
+    .map {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .contact-details { 
+        flex-direction: column;
     }
 
     footer .content {

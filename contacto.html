@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/246ef76c18.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,16 +20,42 @@
         <div class="content">
             <div class="logo"><a href="./index.html"><img src="img/header/logo.svg" alt="" /></a></div>
             <div class="links">
-                <a href="./tienda">Tienda</a>
-                <a href="./blog">Blog</a>
-                <a href="./eventos">Eventos</a>
-                <a href="./contacto">Contact</a>
-                <a href="./sobre-nosotros">Sobre Nosotros</a>
+                <a href="./tienda.html">Tienda</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./eventos.html">Eventos</a>
+                <a href="./contacto.html">Contact</a>
+                <a href="./sobre-nosotros.html">Sobre Nosotros</a>
             </div>
         </div>
     </header>
     <main>
+        <div class="contact">
+            <div class="form">
+                <h3>CONTÁCTANOS</h3>
 
+                <div class="form-container">
+                    <form action="/action_page.php">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre">
+                        <input type="text" id="email" name="lastname" placeholder="Tu email">
+                        <textarea id="message" name="message" placeholder="Tu mensaje" style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+                <div class="contact-details">
+                    <p>Carrer Mallorca, 230<br>08008 - Barcelona, España</p>
+                    <p>T 647 65 42 39<br>enea@enea.com</p>
+                </div>
+                <div class="contact-details">
+                    <p></i>Suscríbete a nuestra newsletter<span><i class="fa-solid fa-envelope"></i></span></p>
+                    <p>Síguenos en <span><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i></span></p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.1830966256325!2d2.158141151151048!3d41.39182990358055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2921bc5a7df%3A0x7f8cbbdae39ff237!2sC%2F%20de%20Mallorca%2C%20230%2C%2008008%20Barcelona!5e0!3m2!1ses!2ses!4v1653324289766!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="content">

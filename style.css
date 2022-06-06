@@ -223,6 +223,7 @@ header .links a {
     color: white;
     text-transform: uppercase;
     position: relative;
+    overflow-x: hidden;
 }
 
 .announcement-bar .type {
@@ -266,6 +267,79 @@ header .links a {
     margin: auto;
     font-size: 30px;
 }
+
+.form h3 { 
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 15px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+      text-transform: uppercase;
+    background-color: #011627;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4ECDC4;
+  }
+  
+  .contact { 
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+  }
+
+  .contact>div {
+      width: 50%;
+  }
+
+  .map { 
+      padding-top: 65px;
+      padding-left: 30px;
+  }
+  .map iframe {
+      width: 100%;
+  }
+
+  .contact-details { 
+      display: flex;
+      padding-bottom: 20px;
+  }
+  .contact-details p { 
+      font-size: 15px;
+      flex-grow: 1;
+      vertical-align: middle;
+  }
+  .contact-details i {
+      vertical-align: middle;
+      font-size: 20px;
+      padding-right: 5px;
+  }
+  .contact-details span { 
+      padding-left: 10px;
+  }
+
+  .form-container {
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
 
 @keyframes changeBackgroundColor {
     0% {
