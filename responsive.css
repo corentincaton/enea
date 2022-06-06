@@ -21,6 +21,10 @@
         flex-direction: column;
     }
 
+    .post { 
+        width: 100%;
+    }
+
     .quote { 
         min-width: 0px;
     }
